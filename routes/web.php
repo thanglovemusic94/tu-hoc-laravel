@@ -18,27 +18,22 @@ Route::get('/', function () {
 });
 
 Route::get('/test', function (){
-
    return view('test');
 });
 
 Route::get('/product', function (){
-
     return 'product view';
 });
 
-Route::get('/user', function (){
-
+Route::get('/user-manager', function (){
     return 'user view';
-});
+})->name('user');
 
 Route::get('/service', function (){
-
     return 'service view';
 });
 
 Route::get('/news', function (){
-
     return 'news view';
 });
 
