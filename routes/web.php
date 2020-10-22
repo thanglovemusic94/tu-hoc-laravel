@@ -42,3 +42,8 @@ Route::get('/news', function (){
     return 'news view';
 });
 
+
+Route::get('news/{id}/category/{categoryId}', function ($id, $categoryId){
+   return "bài viết số $id - danh mục $categoryId";
+});
+

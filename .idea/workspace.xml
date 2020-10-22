@@ -147,7 +147,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603322250603</updated>
-      <workItem from="1603322251707" duration="1890000" />
+      <workItem from="1603322251707" duration="3700000" />
     </task>
     <servers />
   </component>
@@ -155,13 +155,17 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="137" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603332063315">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1603332063315" />
     <state x="518" y="286" key="NewPhpFileDialog" timestamp="1603322454485">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="518" y="286" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1603322454485" />
-    <state x="184" y="0" key="SettingsEditor" timestamp="1603322582991">
+    <state x="184" y="0" key="SettingsEditor" timestamp="1603331501117">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1603322582991" />
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1603331501117" />
   </component>
 </project>
