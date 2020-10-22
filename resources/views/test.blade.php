@@ -21,3 +21,12 @@
 
 <a href="{{ route('user.show.branch', ["id" => "1", "branchId" => "1"]) }}">User show branch</a> |
 <a href="{{ route('user.show.branch', ["id" => "2", "branchId" => "2"]) }}">User show branch</a> |
+
+
+<h3>Route Group</h3>
+
+<a href="{{ route('backend.user') }}">User manager</a> |
+<a href="{{ route('backend.product') }}">Product manager</a> |
+<a href="{{ route('backend.service') }}">Service manager</a> |
+
+

@@ -13,11 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+//Route::get('/', function () {
+//    return view('welcome');
+//});
 
-Route::get('/test', function (){
+Route::get('/', function (){
    return view('test');
 });
 
@@ -45,4 +45,19 @@ Route::get('news/{id}/category/{categoryId}', function ($id, $categoryId){
 Route::get('user/{id}/branch/{branchId}', function ($id, $branchId){
     return "User $id - branch $branchId";
 })->name("user.show.branch");
+
+Route::prefix('backend')->group(function (){
+    Route::get('/user', function (){
+        return 'user manager';
+    })->name('backend.user');
+
+    Route::get('/product', function (){
+        return 'product manager';
+    })->name('backend.product');
+
+    Route::get('/service', function (){
+        return 'service manager';
+    })->name('backend.service');
+});
+
 
