@@ -46,18 +46,12 @@ Route::get('user/{id}/branch/{branchId}', function ($id, $branchId){
     return "User $id - branch $branchId";
 })->name("user.show.branch");
 
-Route::prefix('backend')->group(function (){
-    Route::get('/user', function (){
-        return 'user manager';
-    })->name('backend.user');
+Route::prefix('backend')->namespace('Backend')->group(function (){
+    Route::get('/user', 'UserController@index')->name('backend.user');
 
-    Route::get('/product', function (){
-        return 'product manager';
-    })->name('backend.product');
+    Route::get('/product', 'ProductController@index')->name('backend.product');
 
-    Route::get('/service', function (){
-        return 'service manager';
-    })->name('backend.service');
+    Route::get('/service', 'ServiceController@index')->name('backend.service');
 });
 
 
