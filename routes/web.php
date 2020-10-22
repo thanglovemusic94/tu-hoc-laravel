@@ -42,3 +42,7 @@ Route::get('news/{id}/category/{categoryId}', function ($id, $categoryId){
    return "bài viết số $id - danh mục $categoryId";
 });
 
+Route::get('user/{id}/branch/{branchId}', function ($id, $branchId){
+    return "User $id - branch $branchId";
+})->name("user.show.branch");
+

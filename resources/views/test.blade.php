@@ -17,4 +17,7 @@
 <a href="{{ route('user') }}">User</a> |
 <a href="{{ route('user') }}">User</a> |
 
+<h3>Router name có parameter</h3>
 
+<a href="{{ route('user.show.branch', ["id" => "1", "branchId" => "1"]) }}">User show branch</a> |
+<a href="{{ route('user.show.branch', ["id" => "2", "branchId" => "2"]) }}">User show branch</a> |
